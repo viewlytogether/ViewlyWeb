@@ -4,7 +4,7 @@
     "": {
       "name": "viewly",
     },
-    "packages/api": {
+    "app/api": {
       "name": "api",
       "dependencies": {
         "elysia": "^1.2.12",
@@ -26,7 +26,7 @@
 
     "@types/ws": ["@types/ws@8.5.14", "", { "dependencies": { "@types/node": "*" } }, "sha512-bd/YFLW+URhBzMXurx7lWByOu+xzU9+kb3RboOteXYDfW+tr+JZa99OyNmPINEGB/ahzKrEuc8rcv4gnpJmxTw=="],
 
-    "api": ["api@workspace:packages/api"],
+    "api": ["api@workspace:app/api"],
 
     "bun-types": ["bun-types@1.2.2", "", { "dependencies": { "@types/node": "*", "@types/ws": "~8.5.10" } }, "sha512-RCbMH5elr9gjgDGDhkTTugA21XtJAy/9jkKe/G3WR2q17VPGhcquf9Sir6uay9iW+7P/BV0CAHA1XlHXMAVKHg=="],
 
