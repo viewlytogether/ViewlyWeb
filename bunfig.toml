@@ -1,0 +1,5 @@
+name = "viewly"
+type = "workspace"
+
+[workspace]
+packages = ["app/*"]
