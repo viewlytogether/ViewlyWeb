@@ -4,6 +4,7 @@
   "type": "module",
   "scripts": {
     "start": "bun run src/index.ts",
+    "build": "tsc --build tsconfig.json",
     "dev": "bun --watch src/index.ts"
   },
   "devDependencies": {
