@@ -6,7 +6,10 @@
     "scripts": {
         "dev:api": "bun run --cwd app/api dev",
         "dev:web": "bun run --cwd app/web dev",
-        "build": "bun run build",
+        "build:api": "bun run --cwd app/api build",
         "start": "bun run start"
+    },
+    "dependencies": {
+        "tslib": "^2.8.1"
     }
 }
